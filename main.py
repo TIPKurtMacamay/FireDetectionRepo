@@ -9,7 +9,7 @@ st.set_page_config(page_title="Fire Detection")
 
 # Twilio credentials
 account_sid = 'AC9d3be93a105dd809ee11e2d2f32f0571'
-auth_token = '8c4ffe54059085ca05687c6f382c3ba8'
+auth_token = 'e5040c862d33b765acf68a2a5df4e330'
 twilio_number = '+14149397542'
 
 
