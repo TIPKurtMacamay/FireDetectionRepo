@@ -30,7 +30,7 @@ def send_sms(to, message):
 # Check if Firebase app is already initialized
 if not firebase_admin._apps:
     # Initialize Firebase Admin SDK
-    cred = credentials.Certificate("C:/Users/user/Downloads/FireDetection/firedetectionsettings.json")
+    cred = credentials.Certificate("firedetectionsettings.json")
     firebase_admin.initialize_app(cred, {
     'databaseURL': 'https://projectdesignprototype-855f8-default-rtdb.asia-southeast1.firebasedatabase.app/'
 })
