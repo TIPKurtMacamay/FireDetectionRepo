@@ -8,9 +8,9 @@ from datetime import datetime
 st.set_page_config(page_title="Fire Detection")
 
 # Twilio credentials
-account_sid = 'ACfb8aee0bbac5af6b31db7e97b77f1b47'
-auth_token = 'ec2603888d393572491eabd11119dc97'
-twilio_number = '+18288188436'
+account_sid = 'AC9d3be93a105dd809ee11e2d2f32f0571'
+auth_token = 'e5040c862d33b765acf68a2a5df4e330'
+twilio_number = '+14149397542'
 
 
 current_datetime = datetime.now()
